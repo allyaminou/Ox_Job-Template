@@ -1,9 +1,11 @@
 local players = {}
 local table = lib.table
 
--- <! Methods grabbed from Overextended's ox_police for reference
--- <! because it was the only ox based job on github
--- <! Ref: https://github.com/overextended/ox_police/blob/main/server/main.lua
+--[[ --------------------------------------------------------------------------------
+<! Methods grabbed from Overextended's ox_police for reference !>
+<! because it was the only ox based job on github !>
+<! Ref: https://github.com/overextended/ox_police/blob/main/server/main.lua !>
+-------------------------------------------------------------------------------- ]]--
 
 -- Method for getting players in the provided job groups
 CreateThread(function()
